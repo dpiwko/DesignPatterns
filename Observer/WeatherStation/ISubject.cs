@@ -1,0 +1,8 @@
+﻿namespace DesignPatterns.Observer.WeatherStation;
+
+public interface ISubject
+{
+  void Attach(IObserver observer);
+  void Detach(IObserver observer);
+  void NotifyObservers();
+}
